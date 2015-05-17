@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/siso/packer-templates.png)](https://travis-ci.org/siso/packer-templates)
 
-version: 0.0.0
+version: 0.1.0
 
 ## Synopsis
 
