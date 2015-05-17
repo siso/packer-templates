@@ -1,4 +1,4 @@
 # packer-templates -- CHANGELOG
 
-## NEW
-- [Simone Soldateschi] - Initial release
+## 0.1.0
+- [Simone Soldateschi] - Create Debian Jessie image for Vagrant and VirtualBox

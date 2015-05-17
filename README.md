@@ -6,7 +6,7 @@ version: 0.0.0
 
 ## Synopsis
 
-Packer templates to build server images based on Debian.
+Packer templates to build Debian images for Vagrant and VirtualBox.
 
 ## Prerequisites
 You will need the following software on your local host:
@@ -14,8 +14,6 @@ You will need the following software on your local host:
 - [Vagrant](http://www.vagrantup.com/downloads.html)
 
 ## Quickstart
-
-
 
 ```shell
 # build debian jessie image for virtualbox
