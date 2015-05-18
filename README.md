@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/siso/packer-templates.png)](https://travis-ci.org/siso/packer-templates)
 
-version: 0.0.0
+version: 0.1.1
 
 ## Synopsis
 
@@ -22,14 +22,11 @@ packer build debian-8.0.0-amd64-virtualbox.json
 # add vagrant box
 vagrant box add siso-debian-8.0.0-amd64-jessie virtualbox/siso-debian-8.0.0-amd64-jessie.box
 
-# create vagrant project
-vagrant init
-
-# edit Vagrantfile, and set 'config.vm.box = "siso-debian-8.0.0-amd64-jessie"'
-
-# start and ssh into box
+# start and ssh into virtualbox box
 vagrant up
 vagrant ssh
+
+# do stuff
 
 # destroy and remove box
 vagrant destroy
